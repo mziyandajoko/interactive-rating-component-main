@@ -1,0 +1,16 @@
+.button{
+  background-color: var(--clr-Orange);
+  color: var(--clr-white);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+
+  &:hover{
+    color: var(--clr-Orange);
+    background-color: var(--clr-white);
+  }
+}

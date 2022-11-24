@@ -8,8 +8,8 @@
   --clr-Medium-Grey: hsl(216, 12%, 54%);
   --clr-Dark-Blue: hsl(213, 19%, 18%);
   --clr-Very-Dark-Blue: hsl(216, 12%, 8%);
-  --clr-Orange: hsl(25, 97%, 53%)
-  --clr-black: hsla(0, 0%, 0%, 1) ;
+  --clr-Orange: orange;
+  --clr-black: hsl(0, 0%, 0%, 1);
 }
 
 /* Reset               */
@@ -102,14 +102,11 @@ select {
 }
 
 .card {
-  border-radius: 50%;
-  width: 500px;
+  border-radius: 50px;
+  width: 400px;
   justify-content: center;
   padding-bottom: 40px;
-}
-
-.card_red {
-  background-color: green;
+  background-color: var(--clr-Dark-Blue);
 }
 
 main {
@@ -122,4 +119,20 @@ main {
 .icon_star {
   background-color: red;
   padding: 10px;
+}
+
+.button {
+  background-color: var(--clr-Orange);
+  color: var(--clr-white);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.button:hover {
+  color: var(--clr-Orange);
+  background-color: var(--clr-white);
 }/*# sourceMappingURL=index.css.map */
