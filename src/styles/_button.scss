@@ -8,9 +8,10 @@
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
+  text-decoration: none;
 
   &:hover{
     color: var(--clr-Orange);
-    background-color: var(--clr-white);
+    background-color: white;
   }
 }
