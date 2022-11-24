@@ -13,19 +13,37 @@
       margin: 0 auto;
       width: 100%;
       height: 100%;
-      background-color: brown;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
     }
+    .circle{
+      background-color: brown;
+      border-radius: 50%;
+      padding: 15px;
+      margin: 3px;
+      height: 20px;
+      width: 20px;
+      justify-content: center;
+    align-items: center;
+    }
     .card{
-    
-    padding: 40px;
+    padding: 30px;
     width: 410px;
     color: white;
     margin: 20px 25px;
     border-radius: 30px;
+    }
+
+    .rating{
+      display: flex;
+      align-items: center;
+      padding: 0px;
+    }
+
+    .rating li{
+      display: flex;
     }
 
   </style>
@@ -35,6 +53,7 @@
   <!-- Rating state start -->
  
     <section class="card card_red">
+      <img class="circle" src="images/icon-star.svg" alt="icon-star">
       <h1>
         How did we do?
 
@@ -43,12 +62,12 @@
         Please let us know how we did with your support request. All feedback is appreciated 
         to help us improve our offering!
       </p>
-      <ul>
-        <li>11</li>
-        <li>12</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
+      <ul class="rating">
+        <li class="circle">1</li>
+        <li class="circle">2</li>
+        <li class="circle">3</li>
+        <li class="circle">4</li>
+        <li class="circle">5</li>
       </ul>
       <a href="#">Submit</a>
     </section>
