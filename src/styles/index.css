@@ -8,7 +8,7 @@
   --clr-Medium-Grey: hsl(216, 12%, 54%);
   --clr-Dark-Blue: hsl(213, 19%, 18%);
   --clr-Very-Dark-Blue: hsl(216, 12%, 8%);
-  --clr-Orange: orange;
+  --clr-Orange: hsl(22, 82%, 56%);
   --clr-black: hsl(0, 0%, 0%, 1);
 }
 
@@ -136,6 +136,23 @@ select {
 .rating li.active {
   color: var(--clr-white);
   background-color: var(--clr-light-Grey);
+}
+
+.star_icon {
+  padding-bottom: 15px;
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 3px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-light-Grey);
+  padding: 20px;
+}
+
+.card_title {
+  padding-bottom: 10px;
 }
 
 main {
